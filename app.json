@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "MediAlert",
+    "slug": "MediAlert",
+    "version": "1.0.0",
+    "plugins": [
+      "@notifee/react-native"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.shrav.MediAlert",
+      "splash": {
+        "backgroundColor": "#FDFDFF",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+      },
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+         "backgroundColor": "#FDFDFF",
+         "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "splash": {
+      "backgroundColor": "#FDFDFF",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    }
+  }
+}
